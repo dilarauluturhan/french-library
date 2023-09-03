@@ -7,11 +7,11 @@ import { BiCoffeeTogo } from 'react-icons/bi';
 const Header = () => {
   return (
     <header>
-      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between'>
+      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between border-b border-gray-200'>
         <a href='#\' className='w-80'>
           <img src={logo} alt='logo' />
         </a>
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center'>
           <a href='https://github.com/dilarauluturhan/french-library' target='blank'>
             <VscGithub className='text-black w-7 h-7' />
           </a>
