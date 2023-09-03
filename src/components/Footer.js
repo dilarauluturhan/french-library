@@ -5,7 +5,7 @@ import { BiCoffeeTogo } from 'react-icons/bi';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='font-nunito'>
       <div className='px-5 py-24'>
         <div className='container px-5 py-8 flex flex-wrap mx-auto items-center border-t border-gray-200'>
           <div className='flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start'>
