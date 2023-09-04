@@ -37,13 +37,13 @@ const Footer = () => {
               <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <span class="inline-flex">
                   <a href='https://github.com/dilarauluturhan/french-library' target='blank'>
-                    <VscGithub className='text-gray-600 w-7 h-7' />
+                    <VscGithub className='text-blue-900 w-7 h-7' />
                   </a>
                   <a href='https://bento.me/dilarauluturhan' className='ms-2' target='blank'>
                     <GiSwordwoman className='text-gray-600 w-7 h-7' />
                   </a>
                   <a href='https://www.buymeacoffee.com/dilarauluturhan' className='ms-2' target='blank'>
-                    <BiCoffeeTogo className='text-gray-600 w-7 h-7' />
+                    <BiCoffeeTogo className='text-rose-800 w-7 h-7' />
                   </a>
                 </span>
               </div>
