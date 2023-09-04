@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <main className='font-nunito flex'>
       <div
-        className={`${open ? 'w-72' : 'w-20'} duration-300 h-screen p-5 pt-7 bg-gray-200 relative border rounded-lg`}
+        className={`${open ? 'w-80' : 'w-20'} duration-300 h-screen p-5 pt-7 bg-gray-200 relative border rounded-lg`}
       >
         <IoIosArrowBack
           className={`absolute cursor-pointer -right-3 top-8 w-8 h-8 border-2 border-gray-800 rounded-full bg-white ${!open && 'rotate-180'}`}
@@ -45,6 +45,22 @@ const Main = () => {
             </li>
           ))}
         </ul>
+      </div>
+      <div className={`pl-8 ${activeCategory ? 'hidden' : ''}`}>
+        <h1 className='text-3xl font-bold'>Bonjour!</h1><br />
+        <p className='text-xl'>
+          French is a language spoken around the world and has a very rich cultural heritage. <br />If you have just started learning French, are preparing for the Delf/Dalf exam or already speak this beautiful language, "French Library" is for you!<br />
+          "French Library" was designed as a tool for you to access resources related to French. The project allows users to easily access resources based on their interests.<br /><br />
+          If you want to improve your French vocabulary, the <b>Dictionary</b> category is perfect for you. It provides an opportunity to both learn and practice.<br />
+          For those who want to learn the French language more deeply, there are educational materials in the <b>Education</b> category.<br />
+          To follow current events in France and French-speaking countries, you should check the <b>News</b> category. Provides access to local and international news.<br />
+          Visit the <b>Literature</b> category to plunge into the magical world of French literature. It offers many options from classics to contemporary works.<br />
+          If you are interested in French TV series and TV shows, the <b>Series</b> category offers you series suggestions.<br />
+          Use the <b>YouTube</b> category to discover French-language YouTubers. Fun and instructive videos are waiting for you.<br />
+          Step into the world of French-speaking podcasts. You will find many options related to the topics you are interested in in the <b>Podcast</b> category.<br /><br />
+          "French Library" is a treasure chest for anyone who wants to better understand and learn the French language and culture.<br /> Browse through categories, browse the resources you want, and start exploring the world of French. <br /><br />
+          Start your French adventure with the "French Library" and discover the beauties of the language.🥳
+        </p>
       </div>
       <div className='p-7 ml-5 mt-1 pt-0 flex-1 h-screen'>
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-6'>
