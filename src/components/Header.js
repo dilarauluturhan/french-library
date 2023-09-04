@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between h-40'>
         <a href='#\' className='w-80'>
-          <h1 className='text-5xl font-bold'>french library</h1>
+          <h1 className='text-4xl md:text-5xl font-bold'>french library</h1>
         </a>
         <div className='flex items-center'>
           <a href='https://github.com/dilarauluturhan/french-library' target='blank'>
@@ -26,4 +26,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
