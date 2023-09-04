@@ -7,7 +7,7 @@ import { BiCoffeeTogo } from 'react-icons/bi';
 const Header = () => {
   return (
     <header>
-      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between border-b border-gray-200'>
+      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between'>
         <a href='#\' className='w-80'>
           <img src={logo} alt='logo' />
         </a>

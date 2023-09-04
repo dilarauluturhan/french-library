@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <main className='font-nunito flex'>
       <div
-        className={`${open ? 'w-72' : 'w-20'} duration-300 h-screen p-5 pt-7 bg-gray-200 relative`}
+        className={`${open ? 'w-72' : 'w-20'} duration-300 h-screen p-5 pt-7 bg-gray-200 relative border rounded-lg`}
       >
         <IoIosArrowBack
           className={`absolute cursor-pointer -right-3 top-8 w-8 h-8 border-2 border-gray-800 rounded-full bg-white ${!open && 'rotate-180'}`}
@@ -46,7 +46,7 @@ const Main = () => {
           ))}
         </ul>
       </div>
-      <div className='p-7 flex-1 h-screen'>
+      <div className='p-7 pt-0 flex-1 h-screen'>
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-6'>
           {DATA
             .filter((item) => item.category === activeCategory)
