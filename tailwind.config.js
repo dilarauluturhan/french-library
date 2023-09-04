@@ -7,6 +7,12 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: ['Nunito', 'sans-serif']
+      },
+      colors: {
+        'popup': 'rgba(0,0,0,0.7)'
+      },
+      spacing: {
+        '39': '39%',
       }
     },
   },

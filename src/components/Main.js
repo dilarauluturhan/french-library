@@ -39,14 +39,14 @@ const Main = () => {
               onClick={() => handleCategoryClick(category)}
               className={`${!open && "hidden"}`}
             >
-              <button className='text-xl hover:text-2xl font-semibold p-2 ml-8 hover:bg-gray-50 border rounded-lg duration-300'>
+              <button className='text-xl hover:text-2xl font-semibold p-2 ml-8 hover:bg-gray-50 border border-transparent rounded-lg duration-300'>
                 {category}
               </button>
             </li>
           ))}
         </ul>
       </div>
-      <div className='p-7 pt-0 flex-1 h-screen'>
+      <div className='p-7 ml-5 mt-1 pt-0 flex-1 h-screen'>
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-6'>
           {DATA
             .filter((item) => item.category === activeCategory)
