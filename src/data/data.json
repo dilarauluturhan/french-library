@@ -1,331 +1,331 @@
 [
     {
         "id": 1,
-        "category": "dictionary",
+        "category": "Dictionary",
         "name": "Conjugaison",
         "link": "https://www.conjugaison.com"
     },
     {
         "id": 2,
-        "category": "dictionary",
+        "category": "Dictionary",
         "name": "Fransızca Sözlük",
         "link": "https://www.fransizcasozluk.net"
     },
     {
         "id": 3,
-        "category": "dictionary",
+        "category": "Dictionary",
         "name": "Forvo",
         "link": "https://tr.forvo.com"
     },
     {
         "id": 4,
-        "category": "dictionary",
+        "category": "Dictionary",
         "name": "Larousse",
         "link": "https://www.larousse.com"
     },
     {
         "id": 5,
-        "category": "dictionary",
+        "category": "Dictionary",
         "name": "Tureng",
         "link": "https://tureng.com/tr/fransizca-ingilizce"
     },
     {
         "id": 6,
-        "category": "education",
+        "category": "Education",
         "name": "Apprendre TV5 Monde",
         "link": "https://apprendre.tv5monde.com/fr"
     },
     {
         "id": 7,
-        "category": "education",
+        "category": "Education",
         "name": "France Podcasts",
         "link": "https://www.francepodcasts.com"
     },
     {
         "id": 8,
-        "category": "education",
+        "category": "Education",
         "name": "Partajon Delf-Dalf",
         "link": "https://www.partajondelfdalf.com"
     },
     {
         "id": 9,
-        "category": "education",
+        "category": "Education",
         "name": "Le Point du FLE",
         "link": "https://www.lepointdufle.net"
     },
     {
         "id": 10,
-        "category": "education",
+        "category": "Education",
         "name": "Podcast Français Facile",
         "link": "https://www.podcastfrancaisfacile.com"
     },
     {
         "id": 11,
-        "category": "news",
+        "category": "News",
         "name": "TRT Français",
         "link": "https://www.trtfrancais.com"
     },
     {
         "id": 12,
-        "category": "news",
+        "category": "News",
         "name": "France TV Vu",
         "link": "https://www.france.tv/france-5/vu/"
     },
     {
         "id": 13,
-        "category": "news",
+        "category": "News",
         "name": "Arte TV Désintox",
         "link": "https://www.arte.tv/fr/videos/RC-016371/desintox/"
     },
     {
         "id": 14,
-        "category": "news",
+        "category": "News",
         "name": "rfi",
         "link": "https://www.rfi.fr/fr/"
     },
     {
         "id": 15,
-        "category": "news",
+        "category": "News",
         "name": "france24",
         "link": "https://www.france24.com/fr/"
     },
     {
         "id": 16,
-        "category": "news",
+        "category": "News",
         "name": "Le français facile avec rfi",
         "link": "https://francaisfacile.rfi.fr/fr/"
     },
     {
         "id": 17,
-        "category": "literature",
+        "category": "Literature",
         "name": "Litterature Audio",
         "link": "https://www.litteratureaudio.com"
     },
     {
         "id": 18,
-        "category": "series",
+        "category": "Series",
         "name": "TV5 Monde Plus",
         "link": "https://www.tv5mondeplus.com/fr"
     },
     {
         "id": 19,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Le French Club",
         "link": "https://www.youtube.com/@LeFrenchClub"
     },
     {
         "id": 20,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "French Pill",
         "link": "https://www.youtube.com/@FRENCHPILL"
     },
     {
         "id": 21,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Adam Bros",
         "link": "https://www.youtube.com/@AdamBros"
     },
     {
         "id": 22,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Alparslan Demir",
         "link": "https://www.youtube.com/@alparslandemirfr"
     },
     {
         "id": 23,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Aykut Yavuz",
         "link": "https://www.youtube.com/@AykutYavuzFransizcaDersleri"
     },
     {
         "id": 24,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Canal+",
         "link": "https://www.youtube.com/@Canalplus"
     },
     {
         "id": 25,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "CCube Academy",
         "link": "https://www.youtube.com/@CCubeAcademy"
     },
     {
         "id": 26,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Easy French",
         "link": "https://www.youtube.com/@EasyFrench"
     },
     {
         "id": 27,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "francetv slash / talents",
         "link": "https://www.youtube.com/@francetvslashtalents"
     },
     {
         "id": 28,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Fransızca Dersler",
         "link": "https://www.youtube.com/@FransizcaDersler"
     },
     {
         "id": 29,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Français Authentique",
         "link": "https://www.youtube.com/@francaisauthentique"
     },
     {
         "id": 30,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Français avec Nelly",
         "link": "https://www.youtube.com/@francaisavecnelly"
     },
     {
         "id": 31,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Français avec Fred",
         "link": "https://www.youtube.com/@FrancaisAvecFred"
     },
     {
         "id": 32,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Français avec Pierre",
         "link": "https://www.youtube.com/@FrancaisavecPierre"
     },
     {
         "id": 33,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "French School TV",
         "link": "https://www.youtube.com/@FrenchSchoolTV"
     },
     {
         "id": 34,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "French Talks",
         "link": "https://www.youtube.com/@FrenchTalks"
     },
     {
         "id": 35,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "HugoDécrypte - Actus du jour",
         "link": "https://www.youtube.com/@HugoDecrypte"
     },
     {
         "id": 36,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "INA Société",
         "link": "https://www.youtube.com/@Inasociete"
     },
     {
         "id": 37,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Info ou Mytho ?",
         "link": "https://www.youtube.com/@InfoouMytho"
     },
     {
         "id": 38,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Learn French with Alexa",
         "link": "https://www.youtube.com/@learnfrenchwithalexa"
     },
     {
         "id": 39,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Parlez-vous FRENCH : Cours de français",
         "link": "https://www.youtube.com/@ParlezvousFRENCH"
     },
     {
         "id": 40,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Paroles Lyrics France",
         "link": "https://www.youtube.com/@ParolesLyricsFrance"
     },
     {
         "id": 41,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Piece of French",
         "link": "https://www.youtube.com/@pieceoffrench"
     },
     {
         "id": 42,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Podcast Français Facile",
         "link": "https://www.youtube.com/@podcast_francais_facile"
     },
     {
         "id": 43,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "Useful French with Chris",
         "link": "https://www.youtube.com/@UsefulFrench"
     },
     {
         "id": 44,
-        "category": "youtube",
+        "category": "Youtube",
         "name": "TRT Français",
         "link": "https://www.youtube.com/@trtfrancais"
     },
     {
         "id": 45,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "À bientôt de te revoir",
         "link": "https://open.spotify.com/show/52EqJyUcpduoCE6Cm8blBw?si=dac186c800a048d3"
     },
     {
         "id": 46,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Binge Audio",
         "link": "https://www.binge.audio"
     },
     {
         "id": 47,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Real Life French",
         "link": "https://open.spotify.com/show/400GRC4Cg6epiVJj84PIu5?si=e4baf25ea8184a09"
     },
     {
         "id": 48,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Learn French with Alexa",
         "link": "https://open.spotify.com/show/1xmmu8rOeaCBWO2vVlAMiH?si=6262fa3cc81140e3"
     },
     {
         "id": 49,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Learn French with daily podcasts",
         "link": "https://open.spotify.com/show/3fTcy5v0wlF97bg8DtXmMd?si=87595782e6b54cf0"
     },
     {
         "id": 50,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Easy French",
         "link": "https://open.spotify.com/show/6ymiUbRF2qUuQGqpNsGjFC?si=2bb32d4fbceb4ea3"
     },
     {
         "id": 51,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Le français avec Fluidité",
         "link": "https://open.spotify.com/show/0Uqx5gXwuF2lNhxOQvGzow?si=c54515e920904fb1"
     },
     {
         "id": 52,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Journal en français facile",
         "link": "https://open.spotify.com/show/0AVkxaaQWUC6QAn38x5OmR?si=e7825ca57de34904"
     },
     {
         "id": 53,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "French for Beginners",
         "link": "https://open.spotify.com/show/1WeNLllQ5zKndAfHppym4F?si=0cd095fad2fc4db8"
     },
     {
         "id": 54,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Duolingo French Podcast",
         "link": "https://open.spotify.com/show/2Mu5dTlsG1vRE25twu1P2l?si=540c1916011d4754"
     },
     {
         "id": 55,
-        "category": "podcast",
+        "category": "Podcast",
         "name": "Café Français",
         "link": "https://open.spotify.com/show/1uY8JCkkoBDGn8Yl8M4B9r?si=0f8799a90d2c423a"
     }
