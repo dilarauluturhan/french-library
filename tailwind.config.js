@@ -6,14 +6,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['Nunito', 'sans-serif']
+        nunito: ['Nunito', 'sans-serif'],
+        adlam: ['ADLaM Display', 'cursive']
       },
       colors: {
         'popup': 'rgba(0,0,0,0.7)'
       },
       spacing: {
         '39': '39%',
-        '32':'32rem',
+        '32': '32rem',
       }
     },
   },
