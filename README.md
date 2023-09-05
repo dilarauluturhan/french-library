@@ -2,7 +2,7 @@
   <h1 align="center">french library🥐</h1>
 </div
 
-![](https://github.com/dilarauluturhan/french-library/assets/120499369/e6b3918e-400b-4500-b023-5ce192a2f3d2)
+![](https://github.com/dilarauluturhan/french-library/assets/120499369/63bb1b20-bb18-4835-9c6e-f9e96342ef2c)
 
 ## Features✨
 It is an open source library project. **french library** was designed as a tool for you to access resources related to French. The project allows users to easily access resources based on their interests.
