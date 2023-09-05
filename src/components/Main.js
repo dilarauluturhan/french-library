@@ -14,7 +14,7 @@ const Main = () => {
   };
 
   return (
-    <main className='font-nunito flex'>
+    <main className='font-nunito sm:flex'>
       <div
         className={`${open ? 'w-64' : 'w-20'} duration-300 h-32 p-5 pt-7 bg-gray-200 relative border rounded-lg`}
       >
@@ -42,9 +42,9 @@ const Main = () => {
           ))}
         </ul>
       </div>
-      <div className={`pl-8 ${activeCategory ? 'hidden' : ''}`}>
-        <h1 className='text-3xl font-bold'>Bonjour!</h1><br />
-        <p className='text-xl'>
+      <div className={`pr-10 pl-10 pt-5 sm:pt-0 sm:pl-8 ${activeCategory ? 'hidden' : ''}`}>
+        <h1 className='text-2xl sm:text-3xl font-bold'>Bonjour!</h1><br />
+        <p className='text-md sm:text-xl flex-wrap md:flex-nowrap'>
           French is a language spoken around the world and has a very rich cultural heritage. <br />If you have just started learning French, are preparing for the Delf/Dalf exam or already speak this beautiful language, "French Library" is for you!<br />
           <b>french library</b> was designed as a tool for you to access resources related to French. The project allows users to easily access resources based on their interests.<br /><br />
           If you want to improve your French vocabulary, the <b>Dictionary</b> category is perfect for you. It provides an opportunity to both learn and practice.<br />
@@ -58,13 +58,13 @@ const Main = () => {
           Start your French adventure with the <b>french library</b> and discover the beauties of the language.🥳
         </p>
       </div>
-      <div className='p-7 ml-5 mt-1 pt-0 flex-1 h-screen'>
+      <div className='p-7 ml-7 sm:ml-5 mt-1 sm:pt-0 flex-1 h-screen'>
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-6'>
           {DATA
             .filter((item) => item.category === activeCategory)
             .map((item) => (
               <li key={item.id}>
-                <a href={item.link} target='blank' className='flex w-96 p-2 font-semibold text-xl bg-gray-50 border rounded-lg duration-300' rel="noopener noreferrer">
+                <a href={item.link} target='blank' className='flex w-5/6 sm:w-96 p-2 font-semibold text-xl bg-gray-50 border rounded-lg duration-300' rel="noopener noreferrer">
                   {item.name}
                 </a>
               </li>
