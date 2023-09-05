@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import DATA from '../data/data.json';
 import { IoIosArrowBack } from 'react-icons/io';
 import { BiCategoryAlt } from 'react-icons/bi';
