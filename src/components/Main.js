@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import DATA from '../data/data.json';
-import { IoIosArrowBack } from 'react-icons/io';
-import { BiCategoryAlt } from 'react-icons/bi';
+import { MdDoubleArrow } from 'react-icons/md';
+import { motion } from 'framer-motion';
 
 const Main = () => {
   const [activeCategory, setActiveCategory] = useState('');
-  const [open, setOpen] = useState(true);
 
   const categories = Array.from(new Set(DATA.map(item => item.category)));
 
@@ -13,39 +12,68 @@ const Main = () => {
     setActiveCategory(category)
   };
 
+  const textVariants = {
+    hidden: {
+      opacity: 0,
+      x: -20,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 1,
+      },
+    },
+  };
+
+  const buttonVariants = {
+    initial: {
+      y: 0,
+    },
+    shake: {
+      y: [-10, 10, -10, 10, -5, 5, -2, 2, 0],
+      transition: {
+        duration: 3,
+      },
+    },
+  };
+
+
   return (
-    <main className='font-nunito sm:flex'>
-      <div
-        className={`${open ? 'w-64' : 'w-20'} duration-300 h-32 p-5 pt-7 bg-gray-200 relative border rounded-lg`}
-      >
-        <IoIosArrowBack
-          className={`absolute cursor-pointer -right-4 top-8 w-10 h-10 border-2 border-gray-800 rounded-full bg-white ${!open && 'rotate-180'}`}
-          onClick={() => setOpen(!open)}
-        />
-        <div className='flex items-center gap-x-2'>
-          <BiCategoryAlt
-            className={`w-8 h-8 cursor-pointer duration-500 ${open && "rotate-[360deg]"}`}
-          />
-          <h1 className={`origin-left text-2xl font-bold duration-300 ${!open && "scale-0"}`}>Categories</h1>
-        </div>
-        <ul className='pt-4'>
-          {categories.map((category, index) => (
-            <li
-              key={index}
-              onClick={() => handleCategoryClick(category)}
-              className={`${!open && "hidden"}`}
-            >
-              <button className='text-xl hover:text-2xl font-semibold p-2 ml-8 hover:bg-gray-50 border border-transparent rounded-lg duration-300'>
-                {category}
-              </button>
-            </li>
-          ))}
-        </ul>
+    <main className='font-nunito'>
+      <div className='flex flex-col items-center'>
+        <motion.div
+          className='flex items-center flex-col md:flex-row gap-x-7'
+          initial='hidden'
+          animate='visible'
+          variants={textVariants}
+        >
+          <h1 className='text-md md:text-3xl font-bold inline-flex items-center rounded-lg bg-gray-50 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-2.5'>
+            Categories
+            <MdDoubleArrow />
+          </h1>
+          <ul className='flex items-center flex-row flex-wrap ml-2 md:ml-0 mr-2 md:mr-0 gap-x-5'>
+            {categories.map((category, index) => (
+              <li
+                key={index}
+                onClick={() => handleCategoryClick(category)}
+              >
+                <motion.button
+                  variants={buttonVariants}
+                  initial='initial'
+                  whileHover='shake'
+                  className='text-md md:text-xl font-semibold inline-flex items-center rounded-lg bg-gray-50 hover:bg-blue-900 text-black hover:text-gray-100 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-3'>
+                  {category}
+                </motion.button>
+              </li>
+            ))}
+          </ul>
+        </motion.div>
       </div>
-      <div className={`pr-10 pl-10 pt-5 sm:pt-0 sm:pl-8 ${activeCategory ? 'hidden' : ''}`}>
+      <div className={`mt-7 ml-2 md:ml-[14rem] pr-10 pl-10 pt-5 sm:pt-0 sm:pl-8 ${activeCategory ? 'hidden' : ''}`}>
         <h1 className='text-2xl sm:text-3xl font-bold'>Bonjour!</h1><br />
         <p className='text-md sm:text-xl flex-wrap md:flex-nowrap'>
-          French is a language spoken around the world and has a very rich cultural heritage. <br />If you have just started learning French, are preparing for the Delf/Dalf exam or already speak this beautiful language, "French Library" is for you!<br />
+          French is a language spoken around the world and has a very rich cultural heritage. <br />If you have just started learning French, are preparing for the Delf/Dalf exam or already speak this beautiful language, <b>"French Library"</b> is for you!<br />
           <b>french library</b> was designed as a tool for you to access resources related to French. The project allows users to easily access resources based on their interests.<br /><br />
           If you want to improve your French vocabulary, the <b>Dictionary</b> category is perfect for you. It provides an opportunity to both learn and practice.<br />
           For those who want to learn the French language more deeply, there are educational materials in the <b>Education</b> category.<br />
@@ -58,13 +86,13 @@ const Main = () => {
           Start your French adventure with the <b>french library</b> and discover the beauties of the language.🥳
         </p>
       </div>
-      <div className='p-7 ml-7 sm:ml-5 mt-1 sm:pt-0 flex-1 h-screen'>
-        <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-6'>
+      <div className='p-7 ml-8 sm:ml-5 mt-1 sm:pt-0 flex-1 h-screen'>
+        <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-7 mt-0 md:mt-8 ml-0 md:ml-[11rem]'>
           {DATA
             .filter((item) => item.category === activeCategory)
             .map((item) => (
               <li key={item.id}>
-                <a href={item.link} target='blank' className='flex w-5/6 sm:w-96 p-2 font-semibold text-xl bg-gray-50 border rounded-lg duration-300' rel="noopener noreferrer">
+                <a href={item.link} target='blank' className='flex w-5/6 sm:w-96 p-2 font-semibold text-sm md:text-xl bg-gray-50 border rounded-lg duration-300'>
                   {item.name}
                 </a>
               </li>
