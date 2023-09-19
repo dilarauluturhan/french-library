@@ -2,7 +2,7 @@
   <h1 align="center">french library🥐</h1>
 </div
 
-![](https://github.com/dilarauluturhan/french-library/assets/120499369/63bb1b20-bb18-4835-9c6e-f9e96342ef2c)
+![202309191809](https://github.com/dilarauluturhan/french-library/assets/120499369/62ca2dfd-37be-4e21-a702-d613e1738f35)
 
 ## Features✨
 It is an open source library project. **french library** was designed as a tool for you to access resources related to French. The project allows users to easily access resources based on their interests.
@@ -10,7 +10,7 @@ It is an open source library project. **french library** was designed as a tool 
 Browse through categories, browse the resources you want, and start exploring the world of French.
 
 ## Built With✨
-Used React.js, React Icons and Tailwind CSS technologies for this project.
+Used React.js, React Icons, Framer Motion and Tailwind CSS technologies for this project.
 
 ## Installation✨
 ````
