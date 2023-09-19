@@ -86,7 +86,7 @@ const Main = () => {
           Start your French adventure with the <b>french library</b> and discover the beauties of the language.🥳
         </p>
       </div>
-      <div className='p-7 ml-8 sm:ml-5 mt-1 sm:pt-0 flex-1 mb-24'>
+      <div className='p-7 ml-9 sm:ml-5 mt-1 sm:pt-0 flex-1 mb-24'>
         <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-7 mt-0 md:mt-8 ml-0 md:ml-[11rem]'>
           {DATA
             .filter((item) => item.category === activeCategory)

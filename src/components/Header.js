@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between h-40'>
         <div className='w-80'>
-          <h1 className='text-5xl font-bold font-adlam ml-2 md:ml-0'>french library</h1>
+          <h1 className='text-5xl font-bold font-adlam ml-1.5 md:ml-0'>french library</h1>
         </div>
         <div className='flex items-center'>
           <a href='https://github.com/dilarauluturhan/french-library' target='blank'>
