@@ -109,13 +109,13 @@
     },
     {
         "id": 19,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Le French Club",
         "link": "https://www.youtube.com/@LeFrenchClub"
     },
     {
         "id": 20,
-        "category": "Youtube",
+        "category": "Education",
         "name": "French Pill",
         "link": "https://www.youtube.com/@FRENCHPILL"
     },
@@ -127,13 +127,13 @@
     },
     {
         "id": 22,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Alparslan Demir",
         "link": "https://www.youtube.com/@alparslandemirfr"
     },
     {
         "id": 23,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Aykut Yavuz",
         "link": "https://www.youtube.com/@AykutYavuzFransizcaDersleri"
     },
@@ -163,7 +163,7 @@
     },
     {
         "id": 28,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Fransızca Dersler",
         "link": "https://www.youtube.com/@FransizcaDersler"
     },
@@ -175,25 +175,25 @@
     },
     {
         "id": 30,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Français avec Nelly",
         "link": "https://www.youtube.com/@francaisavecnelly"
     },
     {
         "id": 31,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Français avec Fred",
         "link": "https://www.youtube.com/@FrancaisAvecFred"
     },
     {
         "id": 32,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Français avec Pierre",
         "link": "https://www.youtube.com/@FrancaisavecPierre"
     },
     {
         "id": 33,
-        "category": "Youtube",
+        "category": "Education",
         "name": "French School TV",
         "link": "https://www.youtube.com/@FrenchSchoolTV"
     },
@@ -223,7 +223,7 @@
     },
     {
         "id": 38,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Learn French with Alexa",
         "link": "https://www.youtube.com/@learnfrenchwithalexa"
     },
@@ -253,7 +253,7 @@
     },
     {
         "id": 43,
-        "category": "Youtube",
+        "category": "Education",
         "name": "Useful French with Chris",
         "link": "https://www.youtube.com/@UsefulFrench"
     },
@@ -328,5 +328,59 @@
         "category": "Podcast",
         "name": "Café Français",
         "link": "https://open.spotify.com/show/1uY8JCkkoBDGn8Yl8M4B9r?si=0f8799a90d2c423a"
+    },
+    {
+        "id": 56,
+        "category": "Series",
+        "name": "Lupin",
+        "link": "https://www.imdb.com/title/tt2531336/?ref_=ext_shr_lnk"
+    },
+    {
+        "id": 57,
+        "category": "Series",
+        "name": "Amélie",
+        "link": "https://www.imdb.com/title/tt0211915/?ref_=ext_shr_lnk"
+    },
+    {
+        "id": 58,
+        "category": "Series",
+        "name": "Tendances A1",
+        "link": "https://youtube.com/playlist?list=PLIakcO04FIpqPOPJ9ZRL161BhOgOhWzWE&si=mTW6bdCfkFqhv-px"
+    },
+    {
+        "id": 59,
+        "category": "Series",
+        "name": "Tendances A2",
+        "link": "https://youtube.com/playlist?list=PLIakcO04FIpqitnNy8UimyHkZaGhI-WIc&si=Lu8TyQQ0dvalWnEG"
+    },
+    {
+        "id": 60,
+        "category": "Series",
+        "name": "Extra en français episodes",
+        "link": "https://youtube.com/playlist?list=PLhAxKCm7GPvi1fmbLUbhYhQcLGTZ2Fqwq&si=IxhyDab_K0EOiD8W"
+    },
+    {
+        "id": 61,
+        "category": "Series",
+        "name": "Le Fille Sur Le Pont",
+        "link": "https://www.imdb.com/title/tt0144201/?ref_=ext_shr_lnk"
+    },
+    {
+        "id": 62,
+        "category": "Series",
+        "name": "Café de Flore",
+        "link": "https://www.imdb.com/title/tt1550312/?ref_=ext_shr_lnk"
+    },
+    {
+        "id": 63,
+        "category": "Series",
+        "name": "Petite Maman",
+        "link": "https://www.imdb.com/title/tt13204490/?ref_=ext_shr_lnk"
+    },
+    {
+        "id": 64,
+        "category": "Series",
+        "name": "Les seigneurs de la fraude",
+        "link": "https://www.netflix.com/tr/title/81092697"
     }
 ]

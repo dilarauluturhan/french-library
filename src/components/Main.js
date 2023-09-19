@@ -52,7 +52,7 @@ const Main = () => {
             Categories
             <MdDoubleArrow />
           </h1>
-          <ul className='flex items-center flex-row flex-wrap ml-2 md:ml-0 mr-2 md:mr-0 gap-x-5'>
+          <ul className='flex items-center flex-row flex-wrap ml-4 md:ml-0 mr-2 md:mr-0 gap-x-5'>
             {categories.map((category, index) => (
               <li
                 key={index}
