@@ -1,15 +1,40 @@
-import React, { useState } from 'react';
+import { useEffect, useState } from 'react';
 import DATA from '../data/data.json';
 import { MdDoubleArrow } from 'react-icons/md';
 import { motion } from 'framer-motion';
+import Pagination from './Pagination';
 
 const Main = () => {
   const [activeCategory, setActiveCategory] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [filteredData, setFilteredData] = useState([]);
 
   const categories = Array.from(new Set(DATA.map(item => item.category)));
 
+  useEffect(() => {
+    const updatedData = DATA.filter((item) => item.category === activeCategory);
+    setFilteredData(updatedData);
+  }, [activeCategory]);
+
   const handleCategoryClick = (category) => {
     setActiveCategory(category)
+  };
+
+  const itemsPerPage = 9;
+
+  const getItemsForCurrentPage = () => {
+    const filteredData = DATA.filter((item) => item.category === activeCategory);
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    return filteredData.slice(startIndex, endIndex);
+  };
+
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+
+  const onPageChange = (newPage) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setCurrentPage(newPage);
+    }
   };
 
   const textVariants = {
@@ -31,13 +56,12 @@ const Main = () => {
       y: 0,
     },
     shake: {
-      y: [-10, 10, -10, 10, -5, 5, -2, 2, 0],
+      y: [-10, 10, -5, 5, -1, 2, 0],
       transition: {
         duration: 3,
       },
     },
   };
-
 
   return (
     <main className='font-nunito'>
@@ -48,7 +72,7 @@ const Main = () => {
           animate='visible'
           variants={textVariants}
         >
-          <h1 className='text-md md:text-3xl font-bold inline-flex items-center rounded-lg bg-gray-50 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-2.5'>
+          <h1 className='text-md md:text-3xl font-bold inline-flex items-center rounded-lg bg-gray-100 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-2.5'>
             Categories
             <MdDoubleArrow />
           </h1>
@@ -62,7 +86,7 @@ const Main = () => {
                   variants={buttonVariants}
                   initial='initial'
                   whileHover='shake'
-                  className='text-md md:text-xl font-semibold inline-flex items-center rounded-lg bg-gray-50 hover:bg-blue-900 text-black hover:text-gray-100 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-3'>
+                  className='text-md md:text-xl font-semibold inline-flex items-center rounded-lg bg-gray-100 hover:bg-blue-900 text-black hover:text-gray-100 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-3'>
                   {category}
                 </motion.button>
               </li>
@@ -86,13 +110,12 @@ const Main = () => {
           Start your French adventure with the <b>french library</b> and discover the beauties of the language.🥳
         </p>
       </div>
-      <div className='p-7 ml-9 sm:ml-5 mt-1 sm:pt-0 flex-1 mb-24'>
-        <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-7 mt-0 md:mt-8 ml-0 md:ml-[11rem]'>
-          {DATA
-            .filter((item) => item.category === activeCategory)
+      <div className='p-7 ml-9 sm:ml-5 mt-1 sm:pt-0 mb-24'>
+        <ul className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 mt-0 md:mt-8 ml-0 md:ml-[11rem]'>
+          {getItemsForCurrentPage()
             .map((item) => (
               <li key={item.id}>
-                <a href={item.link} target='blank' className='flex w-5/6 sm:w-96 p-2 font-semibold text-sm md:text-xl bg-gray-50 border rounded-lg duration-300'>
+                <a href={item.link} target='blank' className='flex w-5/6 sm:w-96 p-2 font-semibold text-sm md:text-xl bg-gray-100 border rounded-lg duration-300'>
                   {item.name}
                 </a>
               </li>
@@ -100,6 +123,11 @@ const Main = () => {
           }
         </ul>
       </div>
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={onPageChange}
+      />
     </main>
   )
 }

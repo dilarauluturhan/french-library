@@ -98,8 +98,8 @@
     {
         "id": 17,
         "category": "Literature",
-        "name": "Litterature Audio",
-        "link": "https://www.litteratureaudio.com"
+        "name": "Les folles danseuses",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/abraham-dreyfus-les-folles-danseuses.html"
     },
     {
         "id": 18,
@@ -382,5 +382,287 @@
         "category": "Series",
         "name": "Les seigneurs de la fraude",
         "link": "https://www.netflix.com/tr/title/81092697"
+    },
+    {
+        "id": 65,
+        "category": "Dictionary",
+        "name": "Collins",
+        "link": "https://www.collinsdictionary.com/dictionary/english-french"
+    },
+    {
+        "id": 66,
+        "category": "Dictionary",
+        "name": "Word Reference",
+        "link": "https://www.wordreference.com/enfr/"
+    },
+    {
+        "id": 67,
+        "category": "Dictionary",
+        "name": "Linguee",
+        "link": "https://www.linguee.com/english-french"
+    },
+    {
+        "id": 68,
+        "category": "Dictionary",
+        "name": "Reverso",
+        "link": "https://www.reverso.net/text-translation"
+    },
+    {
+        "id": 69,
+        "category": "Dictionary",
+        "name": "FrenchPod101",
+        "link": "https://www.frenchpod101.com/french-dictionary/"
+    },
+    {
+        "id": 70,
+        "category": "Dictionary",
+        "name": "bab.la",
+        "link": "https://en.bab.la/dictionary/english-french/"
+    },
+    {
+        "id": 71,
+        "category": "Education",
+        "name": "Duolingo",
+        "link": "https://www.duolingo.com/course/fr/en/Fransızca-ogren"
+    },
+    {
+        "id": 72,
+        "category": "Education",
+        "name": "Babbel",
+        "link": "https://www.babbel.com/learn-french"
+    },
+    {
+        "id": 73,
+        "category": "Education",
+        "name": "The French Experiment",
+        "link": "https://www.thefrenchexperiment.com"
+    },
+    {
+        "id": 74,
+        "category": "Education",
+        "name": "BBC",
+        "link": "https://www.bbc.co.uk/languages/french/"
+    },
+    {
+        "id": 75,
+        "category": "Literature",
+        "name": "Le Volcan d’or",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/jules-verne-le-volcan-dor.html"
+    },
+    {
+        "id": 76,
+        "category": "Literature",
+        "name": "Il est élu",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/zo-daxa-il-est-elu.html"
+    },
+    {
+        "id": 77,
+        "category": "Literature",
+        "name": "Capitale de la Douleur",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/paul-eluard-capitale-de-la-douleur-selection.html"
+    },
+    {
+        "id": 78,
+        "category": "Literature",
+        "name": "Le Dit de l’Herberie",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/rutebeuf-le-dit-de-lherberie.html"
+    },
+    {
+        "id": 79,
+        "category": "Literature",
+        "name": "L’horreur des altitudes",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/arthur-conan-doyle-lhorreur-des-altitudes.html"
+    },
+    {
+        "id": 80,
+        "category": "Literature",
+        "name": "Par le fond",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/pauline-pucciano-auteur-par-le-fond-2.html"
+    },
+    {
+        "id": 81,
+        "category": "Literature",
+        "name": "M. Barbey d’Aurevilly",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/olympe-audouard-m-barbey-daurevilly-reponse-a-ses-requisitoires-contre-les-bas-bleus.html"
+    },
+    {
+        "id": 82,
+        "category": "Literature",
+        "name": "Au jardin du Luxembourg",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/francois-coppee-au-jardin-du-luxembourg-poeme.html"
+    },
+    {
+        "id": 83,
+        "category": "Literature",
+        "name": "Ainsi parlait Zarathoustra",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/nietzsche-friedrich-ainsi-parlait-zarathoustra-livre-1.html"
+    },
+    {
+        "id": 84,
+        "category": "Literature",
+        "name": "Le Chien des Baskerville",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/conan-doyle-arthur-le-chien-des-baskerville.html"
+    },
+    {
+        "id": 85,
+        "category": "Literature",
+        "name": "Thérèse Raquin",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/zola-emile-therese-raquin.html"
+    },
+    {
+        "id": 86,
+        "category": "Literature",
+        "name": "Naïs Micoulin",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/zola-emile-nais-micoulin.html"
+    },
+    {
+        "id": 87,
+        "category": "Literature",
+        "name": "Une page d’amour",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/zola-emile-une-page-damour.html"
+    },
+    {
+        "id": 88,
+        "category": "Literature",
+        "name": "Henri IV",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/alexandre-dumas-henri-iv.html"
+    },
+    {
+        "id": 89,
+        "category": "Literature",
+        "name": "Le Vicomte de Bragelonne",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/dumas-alexandre-le-vicomte-de-bragelonne-deuxieme-partie.html"
+    },
+    {
+        "id": 90,
+        "category": "Literature",
+        "name": "Le Chat, la belette et le petit lapin",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/jean-de-la-fontaine-le-chat-la-belette-et-le-petit-lapin.html"
+    },
+    {
+        "id": 91,
+        "category": "Literature",
+        "name": "Le Témoignage de Randolph Carter",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/howard-phillips-lovecraft-le-temoignage-de-randolph-carter.html"
+    },
+    {
+        "id": 92,
+        "category": "Literature",
+        "name": "La Reine Ysabeau",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/auguste-de-villiers-de-lisle-adam-la-reine-ysabeau-2.html"
+    },
+    {
+        "id": 93,
+        "category": "Literature",
+        "name": "Du côté de chez Swann",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/marcel-proust-du-cote-de-chez-swann.html"
+    },
+    {
+        "id": 94,
+        "category": "Literature",
+        "name": "Trois Morts",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/leon-tolstoi-trois-morts.html"
+    },
+    {
+        "id": 95,
+        "category": "Literature",
+        "name": "Le Nuage pourpre",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/matthew-phipps-shiel-le-nuage-pourpre.html"
+    },
+    {
+        "id": 96,
+        "category": "Literature",
+        "name": "La Baleine et son gosier",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/rudyard-kipling-la-baleine-et-son-gosier.html"
+    },
+    {
+        "id": 97,
+        "category": "Literature",
+        "name": "Le Retour d’Arsène Lupin",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/francis-de-croisset-maurice-leblanc-le-retour-darsene-lupin.html"
+    },
+    {
+        "id": 98,
+        "category": "Literature",
+        "name": "Notre-Dame de Paris",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/victor-hugo-notre-dame-de-paris.html"
+    },
+    {
+        "id": 99,
+        "category": "Literature",
+        "name": "Madame Bovary",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/gustave-flaubert-madame-bovary.html"
+    },
+    {
+        "id": 100,
+        "category": "Literature",
+        "name": "L’Argent",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/zola-emile-largent.html"
+    },
+    {
+        "id": 101,
+        "category": "Literature",
+        "name": "Rose",
+        "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/maupassant-guy-rose.html"
+    },
+    {
+        "id":102,
+        "category":"Series",
+        "name":"La Mante",
+        "link":"https://www.imdb.com/title/tt6467482/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":103,
+        "category":"Series",
+        "name":"Une mère parfaite",
+        "link":"https://www.imdb.com/title/tt15341198/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":104,
+        "category":"Series",
+        "name":"Braqueurs",
+        "link":"https://www.imdb.com/title/tt6833910/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":105,
+        "category":"Series",
+        "name":"M’entends-tu?",
+        "link":"https://www.imdb.com/title/tt9747016/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":106,
+        "category":"Series",
+        "name":"Dix pour cent",
+        "link":"https://www.imdb.com/title/tt4277922/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":107,
+        "category":"Series",
+        "name":"On va s'aimer un peu, beaucoup",
+        "link":"https://www.imdb.com/title/tt6730152/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":108,
+        "category":"Series",
+        "name":"Plan cœur",
+        "link":"https://www.imdb.com/title/tt9170638/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":109,
+        "category":"Series",
+        "name":"“La forêt",
+        "link":"https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":110,
+        "category":"Series",
+        "name":"Un village français",
+        "link":"https://www.imdb.com/title/tt1288631/?ref_=ext_shr_lnk"
+    },
+    {
+        "id":111,
+        "category":"Series",
+        "name":"Les revenants",
+        "link":"https://www.imdb.com/title/tt2521668/?ref_=ext_shr_lnk"
     }
 ]

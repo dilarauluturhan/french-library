@@ -12,10 +12,6 @@ module.exports = {
       colors: {
         'popup': 'rgba(0,0,0,0.7)'
       },
-      spacing: {
-        '39': '39%',
-        '32': '32rem',
-      }
     },
   },
   plugins: [],
