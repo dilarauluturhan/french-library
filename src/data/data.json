@@ -37,7 +37,7 @@
     },
     {
         "id": 7,
-        "category": "Education",
+        "category": "Podcast",
         "name": "France Podcasts",
         "link": "https://www.francepodcasts.com"
     },
@@ -606,63 +606,99 @@
         "link": "https://www.litteratureaudio.com/livre-audio-gratuit-mp3/maupassant-guy-rose.html"
     },
     {
-        "id":102,
-        "category":"Series",
-        "name":"La Mante",
-        "link":"https://www.imdb.com/title/tt6467482/?ref_=ext_shr_lnk"
+        "id": 102,
+        "category": "Series",
+        "name": "La Mante",
+        "link": "https://www.imdb.com/title/tt6467482/?ref_=ext_shr_lnk"
     },
     {
-        "id":103,
-        "category":"Series",
-        "name":"Une mère parfaite",
-        "link":"https://www.imdb.com/title/tt15341198/?ref_=ext_shr_lnk"
+        "id": 103,
+        "category": "Series",
+        "name": "Une mère parfaite",
+        "link": "https://www.imdb.com/title/tt15341198/?ref_=ext_shr_lnk"
     },
     {
-        "id":104,
-        "category":"Series",
-        "name":"Braqueurs",
-        "link":"https://www.imdb.com/title/tt6833910/?ref_=ext_shr_lnk"
+        "id": 104,
+        "category": "Series",
+        "name": "Braqueurs",
+        "link": "https://www.imdb.com/title/tt6833910/?ref_=ext_shr_lnk"
     },
     {
-        "id":105,
-        "category":"Series",
-        "name":"M’entends-tu?",
-        "link":"https://www.imdb.com/title/tt9747016/?ref_=ext_shr_lnk"
+        "id": 105,
+        "category": "Series",
+        "name": "M’entends-tu?",
+        "link": "https://www.imdb.com/title/tt9747016/?ref_=ext_shr_lnk"
     },
     {
-        "id":106,
-        "category":"Series",
-        "name":"Dix pour cent",
-        "link":"https://www.imdb.com/title/tt4277922/?ref_=ext_shr_lnk"
+        "id": 106,
+        "category": "Series",
+        "name": "Dix pour cent",
+        "link": "https://www.imdb.com/title/tt4277922/?ref_=ext_shr_lnk"
     },
     {
-        "id":107,
-        "category":"Series",
-        "name":"On va s'aimer un peu, beaucoup",
-        "link":"https://www.imdb.com/title/tt6730152/?ref_=ext_shr_lnk"
+        "id": 107,
+        "category": "Series",
+        "name": "On va s'aimer un peu, beaucoup",
+        "link": "https://www.imdb.com/title/tt6730152/?ref_=ext_shr_lnk"
     },
     {
-        "id":108,
-        "category":"Series",
-        "name":"Plan cœur",
-        "link":"https://www.imdb.com/title/tt9170638/?ref_=ext_shr_lnk"
+        "id": 108,
+        "category": "Series",
+        "name": "Plan cœur",
+        "link": "https://www.imdb.com/title/tt9170638/?ref_=ext_shr_lnk"
     },
     {
-        "id":109,
-        "category":"Series",
-        "name":"“La forêt",
-        "link":"https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk"
+        "id": 109,
+        "category": "Series",
+        "name": "“La forêt",
+        "link": "https://www.imdb.com/title/tt6560040/?ref_=ext_shr_lnk"
     },
     {
-        "id":110,
-        "category":"Series",
-        "name":"Un village français",
-        "link":"https://www.imdb.com/title/tt1288631/?ref_=ext_shr_lnk"
+        "id": 110,
+        "category": "Series",
+        "name": "Un village français",
+        "link": "https://www.imdb.com/title/tt1288631/?ref_=ext_shr_lnk"
     },
     {
-        "id":111,
-        "category":"Series",
-        "name":"Les revenants",
-        "link":"https://www.imdb.com/title/tt2521668/?ref_=ext_shr_lnk"
+        "id": 111,
+        "category": "Series",
+        "name": "Les revenants",
+        "link": "https://www.imdb.com/title/tt2521668/?ref_=ext_shr_lnk"
+    },
+    {
+        "id": 112,
+        "category": "News",
+        "name": "France info",
+        "link": "https://www.francetvinfo.fr"
+    },
+    {
+        "id": 113,
+        "category": "News",
+        "name": "Le Monde",
+        "link": "https://www.lemonde.fr"
+    },
+    {
+        "id": 114,
+        "category": "Education",
+        "name": "Le français facile avec rfi",
+        "link": "https://francaisfacile.rfi.fr/fr/"
+    },
+    {
+        "id": 115,
+        "category": "Education",
+        "name": "Le Web Pédagogique",
+        "link": "https://lewebpedagogique.com"
+    },
+    {
+        "id": 116,
+        "category": "Education",
+        "name": "Bonjour de France",
+        "link": "https://www.bonjourdefrance.com"
+    },
+    {
+        "id": 117,
+        "category": "Education",
+        "name": "École Polytechnique",
+        "link": "https://www.coursera.org/ep"
     }
 ]

@@ -1,15 +1,15 @@
-import { BsArrowLeftCircle } from 'react-icons/bs';
-import { BsArrowRightCircle } from 'react-icons/bs';
+import { BsArrowLeftSquare } from 'react-icons/bs';
+import { BsArrowRightSquare } from 'react-icons/bs';
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     return (
-        <article className='flex items-center justify-center gap-x-5'>
+        <article className='flex items-center justify-center gap-x-7'>
             <div>
                 <button
                     onClick={() => onPageChange(currentPage - 1)}
                     disabled={currentPage === 1}
                 >
-                    <BsArrowLeftCircle size={32} />
+                    <BsArrowLeftSquare size={32} />
                 </button>
             </div>
             <div>
@@ -22,7 +22,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                 onClick={() => onPageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
                 >
-                    <BsArrowRightCircle size={32} />
+                    <BsArrowRightSquare size={32} />
                 </button>
             </div>
         </article>
