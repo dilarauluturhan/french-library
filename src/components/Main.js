@@ -86,7 +86,11 @@ const Main = () => {
                   variants={buttonVariants}
                   initial='initial'
                   whileHover='shake'
-                  className='text-md md:text-xl font-semibold inline-flex items-center rounded-lg bg-gray-100 hover:bg-blue-900 text-black hover:text-gray-100 ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-3'>
+                  className={`${
+                    activeCategory === category
+                      ? 'bg-blue-900 text-gray-100'
+                      : 'bg-gray-100 hover:bg-blue-900 text-black hover:text-gray-100'
+                  } ring-1 ring-inset ring-gray-500/10 mb-3 p-1.5 md:p-3 text-md md:text-xl font-semibold inline-flex items-center rounded-lg`}>
                   {category}
                 </motion.button>
               </li>
